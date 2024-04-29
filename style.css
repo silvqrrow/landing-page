@@ -121,6 +121,35 @@ body {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+/* call to action */
+.cta {
+  margin: 5rem;
+}
+.cta__box {
+  padding: 3rem 8rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  max-width: 60%;
+}
+
+.cta__call {
+  font-size: 1.5rem;
+  color: #f9faf8;
+}
+
+.cta__description {
+  color: #f9f8fa;
+}
+
+.cta__button .btn {
+  border: 2px solid #f9faf8;
+}
+
 /* utility */
 .container {
   margin-inline: auto;
