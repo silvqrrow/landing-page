@@ -44,7 +44,7 @@ body {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  align-items: ;
+  align-items: center;
   padding: 10rem 15rem;
   gap: 3rem;
 }
@@ -67,6 +67,36 @@ body {
   height: 275px;
 }
 
+/* gallery */
+.gallery {
+  margin-top: 5rem;
+}
+.gallery__title {
+  text-align: center;
+  font-size: 2.25rem; /* 36 px */
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 5rem;
+}
+.gallery__container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery__box {
+  margin: 0 4rem;
+}
+.gallery__description {
+  max-width: 16ch;
+  text-align: center;
+}
+
+.gallery__image {
+  height: 150px;
+  width: 150px;
+  border: solid #3882f6 4px;
+  border-radius: 1rem;
+}
 /* utility */
 .container {
   margin-inline: auto;
