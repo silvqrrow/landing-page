@@ -150,6 +150,18 @@ body {
   border: 2px solid #f9faf8;
 }
 
+/* footer */
+.footer {
+  padding: 2rem;
+  background-color: #1f2937;
+}
+
+.footer__text {
+  text-align: center;
+  color: #f9faf8;
+  font-weight: 300;
+}
+
 /* utility */
 .container {
   margin-inline: auto;
