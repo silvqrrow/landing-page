@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem 15rem 0rem;
   background-color: #1f2937;
 }
 
@@ -39,8 +39,45 @@ body {
   font-size: 1.125rem; /* 18px */
   font-weight: 300;
 }
+/* hero */
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+  padding: 10rem 15rem;
+  gap: 3rem;
+}
+.hero__title {
+  color: #f9faf8;
+  font-size: 3rem;
+  font-weight: 900;
+  max-width: 12ch;
+  line-height: 1.2;
+}
+
+.hero__description {
+  color: #e5e7eb;
+  max-width: 45ch;
+  margin-bottom: 0.5rem;
+}
+
+.hero__image img {
+  width: 600px;
+  height: 275px;
+}
 
 /* utility */
 .container {
   margin-inline: auto;
+}
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 0.3rem 2rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
 }
