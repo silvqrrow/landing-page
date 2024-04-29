@@ -13,3 +13,34 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #1f2937;
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  color: #f9faf8;
+}
+
+.header__menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 300;
+}
+
+/* utility */
+.container {
+  margin-inline: auto;
+}
