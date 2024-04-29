@@ -97,6 +97,30 @@ body {
   border: solid #3882f6 4px;
   border-radius: 1rem;
 }
+
+/* quote */
+.quote {
+  background-color: #e5e7eb;
+  margin-top: 10rem;
+  padding: 10rem 15rem 10rem;
+}
+
+.quote__quotation {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 41ch;
+}
+
+.quote__from {
+  text-align: right;
+  margin: 0 16em;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
 /* utility */
 .container {
   margin-inline: auto;
